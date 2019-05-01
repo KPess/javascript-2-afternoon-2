@@ -19,7 +19,12 @@ var arr = [10,20,30];
 
 //Code Here
 
+let first = function(argument) {
+  return (argument[0]);
 
+}
+
+first(arr)
 
 ////////// PROBLEM 2 //////////
 
@@ -34,6 +39,10 @@ var arr = [40,50,60];
 
 //Code Here
 
+let last = function(argument){
+  return (argument[arr.length-1])
+
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -49,6 +58,10 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 //Code Here
 
+let looper = function(argument){
+for (let i = 0; i <= argument.length; i++) {
+  if (i <=argument.length-1) {return argument[i]}
+}}
 
 
 ////////// PROBLEM 4 //////////
